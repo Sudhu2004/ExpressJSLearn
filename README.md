@@ -72,4 +72,38 @@ check out index.js
 
 
 
+## POSTMAN
+
+It is usefull to create a backend without actually creating a frontend
+
+# HTTP Responses
+
+1. Informational responses (100 - 199)
+2. Successful responses (200 - 299)
+3. Redirection messages (300 - 399)
+4. Client error responses (400 - 499)
+5. Server error responses (500 - 599)
+
+for more deeper understandin [docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+
+
+## MiddleWare
+
+To Handle the requests before actually sending the data to the server, middlewares are used
+Types
+- Preprocessing (ex: body-parser)
+- Authentication
+- Logging (ex: morgan)
+- Error
+
+
+# morgan
+
+It is used to log information like what all requests were submitted to the server
+
+
+-  use next() methods in middleware whenever you want to go to next middleware below it 
+
+
+
 
